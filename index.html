@@ -5,36 +5,33 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
 <title>Booth &amp; Hume</title>
-<meta name="description" content="Booth &amp; Hume. Independent due challenge for major decisions.">
+<meta name="description" content="Booth &amp; Hume. Independent challenge for major decisions.">
 <link rel="canonical" href="https://boothandhume.com/">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
 <style>
-  @font-face{font-family:'EB Garamond';src:url('fonts/EBGaramond.woff2') format('woff2');font-weight:400 600;font-style:normal;font-display:swap;}
-  @font-face{font-family:'Source Serif 4';src:url('fonts/SourceSerif4.woff2') format('woff2');font-weight:300 600;font-style:normal;font-display:swap;}
-  :root{--ink:#16202A;--ground:#F3F4F1;--hair:rgba(22,32,42,0.20);--muted:rgba(22,32,42,0.60);--accent:#1F4A5C;}
+  @font-face{font-family:'Libre Caslon Display';src:url('fonts/LibreCaslonDisplay.woff2') format('woff2');font-weight:400;font-style:normal;font-display:swap;}
+  @font-face{font-family:'Inter Tight';src:url('fonts/InterTight.woff2') format('woff2');font-weight:100 900;font-style:normal;font-display:swap;}
+  :root{--ink:#1B2A41;--ground:#FCFBF9;--muted:#4A4845;--accent:#C6402F;}
   *{box-sizing:border-box;}
   html,body{height:100%;}
   body{
     margin:0; background:var(--ground); color:var(--ink);
-    font-family:'Source Serif 4',Georgia,serif;
-    min-height:100svh; display:flex; align-items:center; justify-content:center;
+    font-family:'Inter Tight',system-ui,sans-serif;
+    min-height:100svh; display:flex; flex-direction:column; justify-content:center;
+    padding:8vh clamp(1.5rem,8vw,5rem);
     -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility;
-    padding:6vh 1.5rem;
   }
-  .card{text-align:center;}
-  .wm{
-    font-family:'EB Garamond',Garamond,serif; font-weight:500;
-    font-size:clamp(2.3rem,8vw,3.5rem); line-height:1; letter-spacing:.005em; margin:0;
-  }
-  .rule{width:3rem; height:1px; background:var(--hair); border:0; margin:1.6rem auto;}
-  .tag{margin:0 auto; max-width:26em; text-wrap:balance; font-size:.82rem; text-transform:uppercase; letter-spacing:.22em; text-indent:.22em; color:var(--muted);}
-  .contact{margin:2.4rem 0 0; font-size:.98rem; letter-spacing:.01em;}
-  .contact a{color:var(--accent); text-decoration:none; border-bottom:1px solid rgba(31,74,92,.35); padding-bottom:1px;}
-  .contact a:hover,.contact a:focus-visible{border-bottom-color:var(--accent);}
+  .wm{font-family:'Libre Caslon Display',Georgia,serif; font-weight:400; font-size:clamp(2.2rem,7.6vw,3.4rem); line-height:1; margin:0;}
+  .rule{width:3.5rem; height:3px; background:var(--accent); border:0; margin:1.5rem 0 1.4rem;}
+  .tag{margin:0; font-size:clamp(1rem,2.6vw,1.15rem); color:var(--muted);}
+  .contact{margin:2rem 0 0; font-size:.95rem;}
+  .contact a{color:var(--ink); text-decoration:none; border-bottom:1.5px solid var(--accent); padding-bottom:1px;}
+  .contact a:hover,.contact a:focus-visible{color:var(--accent);}
   :focus-visible{outline:1px solid var(--accent); outline-offset:4px;}
 </style>
 </head>
 <body>
-  <main class="card">
+  <main>
     <h1 class="wm">Booth &amp; Hume</h1>
     <hr class="rule">
     <p class="tag">Independent challenge for major decisions</p>
